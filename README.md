@@ -6,3 +6,5 @@ I've created a javascript template which will hold all
 	that is labeled snake.js
 I've created the basic game.html file which will serve
 	as the link for all the other files
+
+working on figuring out how to add images
