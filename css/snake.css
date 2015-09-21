@@ -4,15 +4,85 @@ https://github.com/lgrube/personal_project.git
 */
 
 /*----------------create variable--------------*/
+body {
+	margin:0px;
+	padding:0px;
+}
+
+#game-board {
+	margin:0px;
+	padding:0px;
+}
+
+#game-board:focus { outline: none; }
+
 /*----------------end variable creation ----------------*/
 
 /*--------------snake color----------------------*/
+
+a.snake-link, a.snake-link:link, a.snake-link:visited {
+  color: orangered;
+}
+
+a.snake-link:hover {
+  color: purple;
+}
+
 /*-------------end snake color-------------------*/
 
 /*----------------create blocks--------------*/
+	/*--creating pause screen------*/
+.snake-pause-screen {
+  font-family: Verdana, arial, helvetica, sans-serif;
+  font-size: 20px;
+  position:absolute;
+  width:300px;
+  height:100px;
+  text-align:center;
+  top:50%;
+  left:50%;
+  margin-top:-40px;
+  margin-left:-150px;
+  display:none;
+  background-color:grey;
+  color:pink;
+}
+	/*-----end of pause screen----*/
+
+	/*-----bottem panel with github repo and length counter*/
+.snake-panel-component {
+	position: absolute;
+	font-family: Verdana, arial, helvetica, sans-serif;
+	font-size: 20px;
+	color: black;
+	text-align: center;
+	background-color: plum;
+	padding: 8px;
+	margin: 0px;
+}
+	/*---end of bottom panel-----*/
+
+	/*------snake block------*/
+.snake-snakebody-block {
+	margin: 0px;
+	padding: 0px;
+	background-color: black;
+	position: absolute;
+	border:0px solid transperent;
+	background-repeat: no-repeat;
+}
+
 /*---------------end blocks----------------*/
 
 /*--------------snake image-------------------*/
+	/*---snakes alive-----*/
+.snake-snakebody-alive {
+	background-image: url(); /*need to finish still*/
+}
+/*------snakes dead-----*/
+.snake-snakebody-dead {
+	background-image: url(); /*need to finish still*/
+}
 /*--------------end snake image---------------*/
 
 /*----------------create food-----------------*/
