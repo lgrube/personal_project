@@ -68,7 +68,6 @@ a.snake-link:hover {
 	padding: 0px;
 	background-color: black;
 	position: absolute;
-	border:0px solid transperent;
 	background-repeat: no-repeat;
 }
 
@@ -77,18 +76,50 @@ a.snake-link:hover {
 /*--------------snake image-------------------*/
 	/*---snakes alive-----*/
 .snake-snakebody-alive {
-	background-image: url(); /*need to finish still*/
+	background-image: url('./images/snakeblockalive.png');
 }
 /*------snakes dead-----*/
 .snake-snakebody-dead {
-	background-image: url(); /*need to finish still*/
+	background-image: url('./images/snakeblockdead.png');
 }
 /*--------------end snake image---------------*/
 
 /*----------------create food-----------------*/
+
+  /*-----food block-------*/
+.snake-food-block {
+  margin:0px;
+  padding:0px;
+  background-color: white;
+  position: absolute;
+}
+  /*----end of food block-----*/
 /*----------------end food--------------------*/
 
 /*----------------create game board----------*/
+
+  /*----playing outline-----*/
+.snake-playing-field {
+  margin: 0px;
+  padding: 0px;
+  position: absolute;
+  background-color: orangered;
+  border: 0px solid darkred;
+}
+  /*-----end playing outline----*/
+
+  /*-----game board-----*/
+.snake-game-container {
+  margin: 0px;
+  padding: 0px;
+  border-width: 0px;
+  border-style: none;
+  zoom: 1;
+  background-color: skyblue;
+  position: relative;
+}
+  /*---end of game board-----*/
+  
 /*-----------------end game board------------*/
 
 /*-----------------create dialog box---------*/
