@@ -2,10 +2,17 @@
 code to make snake do stuff for SPA snake
 */
 
-/*-----------------event handler---------------*/
+/*-----------------snake event handler---------------*/
+  /*--------captures events-----------*/
+  /*creates windows for game board
+  /*--------end caturing events-------*/
+
+  /*----removing the event capturer---*/
+  /*----end removing event capture----*/
 /*-----------------end event handler-----------*/
 
 /*-------------creating snake----------------*/
+  /*controlling snake functions including location
 /*-------------end creating snake------------*/
 
 /*------------arrow key movement--------------------*/
